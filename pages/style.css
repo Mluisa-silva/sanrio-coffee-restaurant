@@ -186,11 +186,11 @@ html{
 }
 
 .card-itens{
-    width: 80%;
+    width: 90%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 550px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -267,4 +267,168 @@ footer a{
     color: var(--color03);
     text-decoration: underline;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .content{
+        height: 90px;
+        display: block;
+        padding-left: 0;
+    }
+    #logo{
+        width: 50px;
+        margin: 10px 0 20px 10px;
+    }
+    
+    #logo > h3{
+        font-size: 15px;
+    }
+    .menu-list{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu-list > li > a{
+        font-size: 12px;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    .primary-section{
+        text-align: center;
+    }
+
+    .main-content > h1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .main-content > h2{
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+    
+    .buttons > button{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .image > img{
+        width: 350px;
+        height: 250px;
+        margin: 20px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text > h2{
+        font-size: 20px;
+    }
+    
+    .text > p{
+        font-size: 10px;
+        max-width: 300px;
+    }
+    
+    .menu > h1{
+        font-size: 20px;
+    }
+    .card-itens{
+        width: 70%;
+        grid-template-columns: repeat(auto-fit, minmax (75px, 175px));
+        gap: 10px;
+    }
+    
+    .info{
+        padding: 10px;
+    }
+    
+    .card-itens img{
+        height: 170px;
+    }
+    
+    .info > h3{
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    .info > p{
+        max-width: 200px;
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    
+    .info > span{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    .order{
+        width: 150px;
+        height: 35px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    footer > p{
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    .content{
+        padding-left: 0;
+    }
+    #logo{
+        width: 50px;
+        margin: 10px 0 20px 10px;
+    }
+    
+    #logo > h3{
+        font-size: 25px;
+    }
+    .menu-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu-list > li > a{
+        font-size: 18px;
+    }
+
+    .primary-section{
+        text-align: center;
+    }
+
+    .buttons > button{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-itens img{
+        height: 170px;
+    }
+
+    .card-itens  p{
+        font-size: 15px;
+        text-align: center;
+    }
 }
