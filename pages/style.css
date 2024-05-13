@@ -72,7 +72,7 @@ html{
 }
 
 .primary-section{
-    background-image: linear-gradient(rgba(168, 120, 207, 0.5),rgba(115, 142, 199, 0.616)),url(../components/images/bg.png);
+    background-image: linear-gradient(rgba(168, 120, 207, 0.404),rgba(115, 142, 199, 0.466)),url(../components/images/bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -150,6 +150,7 @@ html{
     height: 400px;
     margin: 8rem 8rem 4rem 8rem;
     border: 1px solid var(--color02);
+    border-radius: 45px;
 }
 
 .main{
@@ -186,10 +187,10 @@ html{
 
 .menu > h1{
     color: var(--color02);
-    font-size: 30px;
+    font-size: 25px;
     margin: 20px 0px;
     background-image: linear-gradient(#f1ebec, #bcc47a);
-    padding: 10px 20px;
+    padding: 7px 15px;
     border-radius: 25px;
 }
 
