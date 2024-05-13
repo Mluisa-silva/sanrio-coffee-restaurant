@@ -6,5 +6,5 @@
 
 <h3>Linguagens utilizadas</h3>
 
-<img src="../Projeto-02/components/images/html-5.png" alt="Logo html" width="100px" height="100px">
-<img src="../Projeto-02/components/images/css-3.png" alt="Logo css" width="100px" height="100px">
+<img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="Logo html" width="100px" height="100px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="Logo css" width="100px" height="100px">
