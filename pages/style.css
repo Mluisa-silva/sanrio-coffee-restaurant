@@ -2,11 +2,10 @@
 
 :root{
     --font: "Roboto", sans-serif;
-    --color01: #F2A2C0;
+    --color01: #A0C1CD;
     --color02: #fff;
     --color03: #F2D888;
-    --color04: #F2D5DD;
-    --color05: #A6634B;
+    --color04: #F2C8CA;
 }
 
 *{
@@ -34,7 +33,7 @@ html{
     background-color: var(--color01);
     position: fixed;
     padding-left: 30rem;
-    box-shadow: 1px 2px 8px rgba(112, 21, 41, 0.486);
+    box-shadow: 1px 2px 8px rgba(40, 72, 139, 0.452);
 }
 
 #logo{
@@ -67,13 +66,13 @@ html{
 }
 
 .menu-list > li > a:hover{
-    background-color: rgba(78, 74, 74, 0.63);
-    border-bottom: 4px solid var(--color03);
-    color: var(--color03);
+    background-color: #e6c3cca6;
+    border-bottom: 5px solid var(--color03);
+    color: var(--color02);
 }
 
 .primary-section{
-    background-image: linear-gradient(rgba(252,236,239,0.5),rgba(107, 30, 48, 0.8)),url(../components/images/background.jpg);
+    background-image: linear-gradient(rgba(168, 120, 207, 0.5),rgba(115, 142, 199, 0.616)),url(../components/images/bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +100,7 @@ html{
 }
 
 .main-content > h2{
-    color: #e8f0d8;
+    color: #ece6e8;
     font-size: 2.5rem;
     font-weight: normal;
     margin-bottom: 3rem;
@@ -114,9 +113,10 @@ html{
     background-color: var(--color03);
     border: none;
     border-radius: 50px;
-    color: black;
+    color: #201f20;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
+    text-transform: uppercase;
     margin-top: 5rem;
     transition: 0.2s;
 }
@@ -127,9 +127,11 @@ html{
     color: var(--color03);
     font-size: 19px;
 }
-
+hr{
+    border: 0.1px solid var(--color02);
+}
 .secondary-section{
-    background-color: rgb(75, 68, 68);
+    background-image: linear-gradient(#A0C1CD,#D4CADA);
     width: 100%;
     padding-bottom: 5rem;
     color: var(--color02);
@@ -174,13 +176,16 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--color01);
+    background-color: #D4CADA;
 }
 
 .menu > h1{
     color: var(--color02);
     font-size: 30px;
     margin: 20px 0px;
+    background-image: linear-gradient(#f1ebec, #bcc47a);
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 
 .card-itens{
@@ -195,12 +200,12 @@ html{
 }
 
 .card-itens > div{
-    background-color: rgb(65, 61, 61);
-    box-shadow: 0px 0px 4px 1px;
+    background-color: #DBB0C3;
+    box-shadow: 0px 0px 4px 1px #dbb0c3b0;
 }
 
 .info{
-    background-color: rgb(221,221,221);
+    background-color: var(--color02);
     border: none;
     display: flex;
     flex-direction: column;
@@ -227,7 +232,7 @@ html{
 
 .info > span{
     font-size: 15px;
-    color: #585858;
+    color: #abb648;
     text-decoration: underline;
     margin-bottom: 1.5rem;
 }
@@ -253,7 +258,7 @@ html{
 }
 
 footer{
-    background-color: rgb(0, 0, 0);
+    background-color: var(--color01);
     font-size: 15px;
     font-weight: 500;
     color: var(--color02);
@@ -273,14 +278,15 @@ footer a{
     }
 
     #logo > img{
-        width: 55px;
+        width: 50px;
+        margin-left: 10px;
     }
 
     .menu-list{
         display: flex;
         align-items: center;
         justify-content: center;
-        max-width: 390px;
+        max-width: 300px;
     }
     
     .menu-list > li > a{
@@ -298,7 +304,6 @@ footer a{
     
     .main-content > h2{
         font-size: 18px;
-        margin-bottom: 100px;
     }
     
     .buttons > button{
