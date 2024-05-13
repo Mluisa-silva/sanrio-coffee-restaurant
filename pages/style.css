@@ -113,6 +113,9 @@ html{
     background-color: var(--color03);
     border: none;
     border-radius: 50px;
+}
+
+.buttons > button > a{
     color: #201f20;
     font-weight: bold;
     font-size: 18px;
@@ -121,15 +124,17 @@ html{
     transition: 0.2s;
 }
 
-.buttons > button:hover{
-    border: 1px solid var(--color03);
-    background-color: transparent;
+.buttons > button > a:hover{
     color: var(--color03);
     font-size: 19px;
 }
-hr{
-    border: 0.1px solid var(--color02);
+
+.buttons > button:hover{
+    border: 1px solid var(--color03);
+    background-color: transparent;
+    
 }
+
 .secondary-section{
     background-image: linear-gradient(#A0C1CD,#D4CADA);
     width: 100%;
