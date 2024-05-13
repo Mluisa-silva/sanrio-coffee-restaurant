@@ -30,7 +30,7 @@ html{
     justify-content: space-around;
     align-items: center;
     background-color: var(--color01);
-    position: relative;
+    position: fixed;
     padding-left: 30rem;
 }
 
@@ -106,7 +106,6 @@ html{
     color: rgb(197, 184, 184);
     font-size: 2.5rem;
     font-weight: normal;
-    text-transform: uppercase;
     margin-bottom: 3rem;
 }
 
@@ -132,7 +131,7 @@ html{
 }
 
 .secondary-section{
-    background-color: var(--color01);
+    background-color: rgb(75, 68, 68);
     width: 100%;
     padding-bottom: 5rem;
     color: var(--color02);
@@ -144,8 +143,7 @@ html{
 .image > img{
     width: 400px;
     height: 400px;
-    margin-top: 10rem;
-    margin-left: 10rem;
+    margin: 8rem 8rem 4rem 8rem;
     border: 1px solid var(--color02);
 }
 
@@ -170,4 +168,103 @@ html{
     font-size: 15px;
     text-align: center;
     max-width: 600px;
+}
+
+.menu{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color01);
+}
+
+.menu > h1{
+    color: var(--color02);
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.card-itens{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-itens > div{
+    background-color: rgb(65, 61, 61);
+    box-shadow: 0px 0px 4px 1px;
+}
+
+.info{
+    background-color: rgb(221,221,221);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.card-itens img{
+    width: 100%;
+    height: 200px;
+}
+
+.info > h3{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.info > p{
+    font-size: 12px;
+    margin-bottom: 0.6rem;
+}
+
+.info > span{
+    font-size: 15px;
+    color: #585858;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+.order{
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: var(--color03);
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.order:hover{
+    background-color: var(--color01);
+    color: var(--color02);
+    font-size: 16px ;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color02);
+    text-align: center;
+    padding: 8px;
+}
+
+footer a{
+    color: var(--color03);
+    text-decoration: underline;
+    font-weight: bold;
 }
